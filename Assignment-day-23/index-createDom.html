@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element Dom</title>
+</head>
+<body>
+    <button onclick="createNode()">Click to show new Element!</button>
+
+    <script>
+        function createNode(){
+            let newElement = document.createElement('input');
+            document.body.appendChild(newElement);
+
+            console.log("Element succesfully created");
+            alert("Element Input succesfully created");
+        }
+    </script>
+</body>
+</html>
